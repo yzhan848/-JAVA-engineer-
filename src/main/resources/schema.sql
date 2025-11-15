@@ -1,0 +1,9 @@
+
+CREATE TABLE IF NOT EXISTS currency (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  code VARCHAR(8) NOT NULL UNIQUE,
+  name_zh VARCHAR(50) NOT NULL
+);
+
+ALTER TABLE currency ADD CONSTRAINT uk_currency_code UNIQUE (code);
+
