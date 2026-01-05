@@ -1,6 +1,6 @@
-# CUB Backend 作業 - Coindesk 轉接服務
+#  Backend 作業 - Coindesk 轉接服務
 
-此專案依照台中 CUB/國泰世華 JAVA engineer 線上作業需求實作：
+此專案依照 JAVA engineer 線上作業需求實作：
 - 幣別 DB 維護 CRUD（H2 / Spring Data JPA）
 - 呼叫 Coindesk API，失敗時套用題目提供的 mock JSON
 - 新 API 進行資料轉換：時間格式 `yyyy/MM/dd HH:mm:ss`、幣別代碼 + 中文名 + 格式化匯率，並依代碼排序
@@ -14,7 +14,7 @@
   - **Strategy**：`RateFormatStrategy` 匯率格式化策略
 - Docker 支援
 
-> 規格來源：見附件 PDF。
+
 
 ## 快速啟動
 
